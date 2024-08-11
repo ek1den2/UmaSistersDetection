@@ -3,6 +3,8 @@
 
 Grad-CAMを用いて推論の根拠となっている可能性の高い場所も表示します
 
+![png](/img/demo.png)
+
 ## 環境
 * python 3.9.19
 * matplotlib 3.8.4
@@ -12,6 +14,11 @@ Grad-CAMを用いて推論の根拠となっている可能性の高い場所も
 * pytorch 2.4.0
 * torchvision 0.19.0
 * streamlit 1.37.1
+
+## 実行
+```bash
+streamlit run run.py
+```
 
 ## モデルの構造
 ```bash
