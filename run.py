@@ -195,7 +195,7 @@ def main():
     # 保存済みのモデルをロード
     model = CNN(3)
     model.load_state_dict(
-        torch.load("model/cnn_10.model", map_location=torch.device('cpu'), weights_only=True))
+        torch.load("model/cnn_31.model", map_location=torch.device('cpu'), weights_only=True))
     model.eval()
 
     # 画像ファイルが読み込まれた後，顔認識を実行
