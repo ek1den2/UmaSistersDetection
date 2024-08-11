@@ -12,4 +12,3 @@
 * streamlit 1.37.1
 
 ## モデルの構造
-![png](/img/model.png)
