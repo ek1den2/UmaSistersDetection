@@ -10,3 +10,6 @@
 * pytorch 2.4.0
 * torchvision 0.19.0
 * streamlit 1.37.1
+
+## モデルの構造
+![png](/img/model.png)
