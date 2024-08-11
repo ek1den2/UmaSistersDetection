@@ -190,12 +190,12 @@ def main():
     # サンプル画像を使用する場合
     use_sample = st.sidebar.checkbox("サンプル画像")
     if use_sample:
-        image = "sample.png"
+        image = "img/sample.png"
 
     # 保存済みのモデルをロード
     model = CNN(3)
     model.load_state_dict(
-        torch.load("cnn_10.model", map_location=torch.device('cpu'), weights_only=True))
+        torch.load("model/cnn_10.model", map_location=torch.device('cpu'), weights_only=True))
     model.eval()
 
     # 画像ファイルが読み込まれた後，顔認識を実行
