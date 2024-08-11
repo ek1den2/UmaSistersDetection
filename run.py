@@ -190,7 +190,7 @@ def main():
     # サンプル画像を使用する場合
     use_sample = st.sidebar.checkbox("サンプル画像")
     if use_sample:
-        image = "img/sample.png"
+        image = "img/sample.jpg"
 
     # 保存済みのモデルをロード
     model = CNN(3)

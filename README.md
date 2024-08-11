@@ -3,7 +3,7 @@
 
 Grad-CAMを用いて推論の根拠となっている可能性の高い場所も表示します
 
-![png](/img/demo.png)
+![jpg](/img/demo.jpg)
 
 ## 環境
 * python 3.9.19
