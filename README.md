@@ -66,3 +66,10 @@ Params size (MB): 4.85
 Estimated Total Size (MB): 6.52
 ==========================================================================================
 ```
+
+## 参考
+こちらの記事を参考に制作しました。
+PytorchとStreamlitでウマ娘の顔を検出するアプリケーションを作成する
+* https://qiita.com/tatsu2015/items/9976e4b08f0ca82f68d3
+https://qiita.com/m__k/items/0a841a1a93d70a663c39
+* https://qiita.com/m__k/items/0a841a1a93d70a663c39
